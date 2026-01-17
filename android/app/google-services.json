@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "893584206436",
+    "project_id": "penforge-b1e4f",
+    "storage_bucket": "penforge-b1e4f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893584206436:android:dc94a88c2636723abf4d71",
+        "android_client_info": {
+          "package_name": "com.example.penforge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0vKEADqePLgtNEskRd16lZ6wKFeEr7DY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893584206436:android:3af0d091d18382d4bf4d71",
+        "android_client_info": {
+          "package_name": "com.penforge.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0vKEADqePLgtNEskRd16lZ6wKFeEr7DY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
