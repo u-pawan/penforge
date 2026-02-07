@@ -1,0 +1,24 @@
+﻿Analyzing penforge...                                           
+
+   info - Don't use 'BuildContext's across async gaps - lib\features\auth\login_prompt.dart:28:27 - use_build_context_synchronously
+
+flutter : 1 issue 
+found. (ran in 2.3s)
+At line:1 char:1
++ flutter analyze 
+2>&1 | Out-File 
+-FilePath 
+analyze_output.txt 
+-Encodin ...
++ 
+~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (1 issue   
+  found. (ran in     
+2.3s):String) []    
+, RemoteExceptio    n
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 

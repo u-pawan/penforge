@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'auth_provider.dart';
 
-
 class LoginPrompt extends ConsumerWidget {
   const LoginPrompt({super.key});
 
@@ -22,10 +21,9 @@ class LoginPrompt extends ConsumerWidget {
         ),
         ElevatedButton(
           onPressed: () async {
-            await ref
-                .read(authControllerProvider)
-                .signInWithGoogle();
-            Navigator.pop(context);
+            final navigator = Navigator.of(context);
+            await ref.read(authControllerProvider).signInWithGoogle();
+            navigator.pop();
           },
           child: const Text("Sign in with Google"),
         ),
